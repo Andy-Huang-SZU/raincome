@@ -65,7 +65,14 @@ p {
     font-weight: bold;
 }
 
-.image-container {
+.image-container_1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-container_2 {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -81,6 +88,20 @@ p {
     border: 2px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+/* Resize the weather image */
+#weather-image {
+    width: 50%; /* Adjust the size */
+    max-width: 300px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the new audio-trigger image */
+#audio-trigger {
+    width: 300px; /* Size of the image */
+    cursor: pointer; /* Indicate it's clickable */
+    margin-top: 20px; /* Add some space above */
+}
+
 
 /* Thunder animation */
 @keyframes flash {
